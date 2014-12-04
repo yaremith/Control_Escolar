@@ -1,0 +1,87 @@
+
+.BuscarGrupo, .NuevosDatos, .BorrarGrupo, .BuscarAlumno, .InsertarGrupo{
+	position: relative;
+    margin: 50px auto;
+    padding: 20px 20px 20px;
+    width: 600px;
+    background: #B0C4DE;/*color del contenedor*/   
+    border-radius: 10px;
+}
+
+table{
+	border-collapse: collapse;
+
+	width:100%;
+
+}
+
+
+/*Queda estático el textarea*/
+textarea{
+	resize:none;
+}
+
+table td{
+	padding: 5px;
+}
+
+
+/*Cajas de texto*/
+input[type=text], input[type=password] {
+	margin: 0 0 1em 0;
+	width: 90%;
+	/*border: 5px;*/
+	padding: 0.2em;
+	position: center;
+
+}
+
+/*Botones*/
+input[type=submit]{
+	padding: 7px;
+	background: #F0FFFF;
+	border: none;
+	border-radius: 3px 3px 3px 3px;
+
+}
+
+label {
+    display: inline-block;
+    text-align: left;
+    width: 12em;
+    vertical-align: bottom;
+    border-bottom: 1px dashed white;
+}
+
+.BuscarGrupo h3, .NuevosDatos h3, .BorrarGrupo h3, .BuscarAlumno h3, .InsertarGrupo h3 {
+    margin: -20px -20px 21px;
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #8B4513;
+    text-align: center;
+    text-shadow: 0 1px white;
+    background: #F5F5F5;
+    border-radius: 3px 3px 0 0;
+}
+
+input textarea{
+	margin-bottom:20px;
+	width:100%;
+}
+
+/*color cuando el puntero está en el botón*/
+input[type=submit]:hover{
+	background:#434343;/*gris*/
+    color: #FFF;
+  	
+}
+
+/*Icono que está en los títulos*/
+span{
+	color:#E57F26;
+}
+
+h1 span{
+	color: #8B4513;
+}
